@@ -7,6 +7,32 @@
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #35363a !important;
+  color: #d1d5db;
+}
+
+.text-primary {
+  color: #ffffff; /* Branco puro para títulos principais */
+}
+
+.text-secondary {
+  color: #e5e7eb; /* Cinza muito claro para subtítulos */
+}
+
+.text-body {
+  color: #d1d5db; /* Cinza claro para textos longos (melhor legibilidade) */
+}
+
+.text-muted {
+  color: #9ca3af; /* Cinza médio para informações secundárias */
+}
+
+p {
+  color: #d1d5db; /* text-body */
+}
+
+.info-text {
+  color: #9ca3af; /* text-muted */
 }
 
 .whatsapp-link {
@@ -17,6 +43,75 @@ body {
 
 .whatsapp-link:hover {
   transform: scale(1.15);
+}
+
+/* Cores de fundo para as seções - criando variações sutis */
+.bg-white-section {
+  background-color: #404145; /* Cinza um pouco mais claro para "substituir" o branco */
+}
+
+.bg-light-section {
+  background-color: #3a3b40; /* Cinza médio para substituir o cinza claro original */
+}
+
+/* Ajustes de texto para contraste */
+.text-dark-gray {
+  color: #f9fafb; /* Quase branco para títulos importantes */
+}
+
+.text-medium-gray {
+  color: #d1d5db; /* Cinza médio-claro para textos secundários */
+}
+
+/* Cartões profissionais - ajustados para o tema escuro */
+.professional-card {
+  background: #404145;
+  border: 1px solid #4b5563;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.professional-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Header ajustado */
+header {
+  background-color: #404145 !important;
+  border-bottom-color: #4b5563;
+}
+
+/* Links do menu */
+nav a {
+  color: #e5e7eb !important;
+}
+
+nav a:hover {
+  color: #0cb7f2 !important;
+}
+
+/* Menu mobile */
+#mobile-menu {
+  background-color: #404145;
+  border-color: #4b5563;
+}
+
+#mobile-menu a {
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+#mobile-menu a:hover {
+  background-color: #4b5563;
+}
+
+/* Botão secundário ajustado */
+.btn-secondary {
+  border-color: #0cb7f2;
+  color: #0cb7f2;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(12, 183, 242, 0.1);
 }
 
 /* :root { */
